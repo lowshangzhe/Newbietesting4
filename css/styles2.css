@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: roboto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Nova Round', cursive;
+}
+
+.wrap {
+    background: rgba(0,0,0,0.2) url("../image/bg.jpg"); 
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    overflow: hidden;
+    background-blend-mode: overlay;
+}
+
+/* Wave */
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: -0px;
+    opacity: 0.5;
+}
+
+/* Header */
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 80px 25px 80px;
+    background: linear-gradient(to top, transparent, #ccddff)
+}
+
+.logo a img:hover {
+    transform: scale(1.5);
+  }
+
+.logo img {
+    float: left;
+    width: 130px;
+    height: auto;
+  }
+
+header .menu {
+    float: right;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    margin: 0 25px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.menu ul li:hover {
+    transform: scale(1.5);
+  }
+
+/*content*/
+.content {
+    max-width: 55%;
+    padding: 400px 0 0 80px;
+}
+
+.content .btn-group {
+    margin-top: 45px;         
+}
+
+.btn-group .color1:hover {
+    transform: scale(1.5);
+}
+
+.content a {
+    display: inline-block;
+    padding: 15px 45px;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+    text-size: 40px;
+    font-weight: bold;
+}
+
+.content a.color1 {
+    background: linear-gradient(to top, transparent, #ccddff)
+}
+
+/** Our Partner **/
+
+.our-partners {
+    padding: 30px 80px;
+    position: relative;
+}
+
+.our-partners h3 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.our-partners hr {
+    border: none;
+    height: 4px;
+    width: 100px;
+    background-color: orange;
+}
+
+.our-partners-inner {
+    margin-top: 50px;
+}
+
+.our-partners-inner a {
+    display: inline-block;
+    width: 14%;
+    padding: 15px;
+    margin-right: 25px;
+    border: 1px solid #cacaca;
+    border-radius: 20px;
+    box-shadow: 0 5px 0 #cacaca;
+}
+
+.our-partners-inner img {
+    width: 100%;
+}
+
+/* About Us */
+
+.about {
+    background: linear-gradient(to top, #585858, #585858);
+    color: white;
+}
+
+.about h3 {
+    padding: 30px 80px;
+    position: relative;
+}
+
+.about_details {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.details {
+    display: inline-block;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: justify;
+}
+
+.details ul {
+    list-style: none;
+}
+
+.about_details h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+
+.bottom {
+    min-height: 100vh;
+}
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
